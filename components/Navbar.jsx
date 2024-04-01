@@ -117,7 +117,7 @@ export function Navbar() {
                 <Link href="/">Home</Link>
               </DropdownItem>
               <DropdownItem key="copy" className="py-2">
-                <Link href="/ssp">Servies</Link>
+                <Link href="/ssp">Services</Link>
               </DropdownItem>
               <DropdownItem key="edit" className="py-2">
                 <Link href="/about">About Us</Link>
