@@ -217,7 +217,7 @@ export function Hero() {
         <section
           className="w-full py-12 md:py-24 lg:py-32 xl:py-48 relative z-[-1]"
           style={{
-            backgroundImage: 'url("/bg8.jpg")',
+            backgroundImage: 'url("/bg8.webp")',
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

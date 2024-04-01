@@ -57,7 +57,7 @@ export function Contact() {
   return (
     <>
       <video
-        src={require("../public/bg3.mp4")}
+        src={require("../public/bg3.webm")}
         autoPlay
         muted
         loop

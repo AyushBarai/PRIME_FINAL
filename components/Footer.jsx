@@ -94,7 +94,7 @@ export function Footer() {
       </div>
       <div>
         <Image
-          src="/FooterRRR.png"
+          src="/FooterRRR.webp"
           width={1000}
           height={1000}
           className="justify-end w-[100vh] h-auto"

@@ -1,6 +1,18 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import React from "react";
+import { BsBank } from "react-icons/bs";
+import { MdOutlineSecurity } from "react-icons/md";
+import { LuNetwork } from "react-icons/lu";
+import { FaShop } from "react-icons/fa6";
+import { IoCloud } from "react-icons/io5";
+import { MdOutlineFactory } from "react-icons/md";
+import { FaPeopleArrows } from "react-icons/fa";
+import { PiPlantDuotone } from "react-icons/pi";
+import { GiGroupedDrops } from "react-icons/gi";
+import { LiaDigitalTachographSolid } from "react-icons/lia";
+import { MdManageAccounts } from "react-icons/md";
+import { FaArrowsDownToPeople } from "react-icons/fa6";
 
 export function Serv() {
   function scrollToSection(sectionId) {
@@ -36,8 +48,8 @@ export function Serv() {
         */}
           <div className="mx-auto grid max-w-sm items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
             <div className="flex flex-col items-center gap-2">
-              <div className="flex items-center justify-center w-16 h-16 rounded-full border border-gray-200 ">
-                {/* add icon */}
+              <div className="flex items-center justify-center rounded-full border border-gray-200 ">
+                <BsBank className="h-11 w-11" />
               </div>
               <div className="space-y-2 text-center">
                 <h3 className="text-xl font-bold">Banking</h3>
@@ -56,7 +68,7 @@ export function Serv() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex items-center justify-center w-16 h-16 rounded-full border border-gray-200 ">
-                {/* add icon */}
+                <MdOutlineSecurity className="h-11 w-11" />
               </div>
               <div className="space-y-2 text-center">
                 <h3 className="text-xl font-bold">Cyber Security</h3>
@@ -76,7 +88,7 @@ export function Serv() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex items-center justify-center w-16 h-16 rounded-full border  border-gray-200">
-                {/* add icon */}
+                <LuNetwork className="h-11 w-11" />
               </div>
               <div className="space-y-2 text-center">
                 <h3 className="text-xl font-bold">Networking & Telecom</h3>
@@ -95,7 +107,7 @@ export function Serv() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex items-center justify-center w-16 h-16 rounded-full border border-gray-200 ">
-                {/* add icon */}
+                <FaShop className="h-11 w-11" />
               </div>
               <div className="space-y-2 text-center">
                 <h3 className="text-xl font-bold">Retail Industry</h3>
@@ -114,7 +126,7 @@ export function Serv() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex items-center justify-center w-16 h-16 rounded-full border border-gray-200 ">
-                {/* add icon */}
+                <IoCloud className="h-11 w-11" />
               </div>
               <div className="space-y-2 text-center">
                 <h3 className="text-xl font-bold">Cloud Services</h3>
@@ -134,7 +146,7 @@ export function Serv() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex items-center justify-center w-16 h-16 rounded-full border border-gray-200 ">
-                {/* add icon */}
+                <MdOutlineFactory className="h-11 w-11" />
               </div>
               <div className="space-y-2 text-center">
                 <h3 className="text-xl font-bold">Manufacturing</h3>
@@ -153,7 +165,7 @@ export function Serv() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex items-center justify-center w-16 h-16 rounded-full border border-gray-200 ">
-                {/* add icon */}
+                <FaPeopleArrows className="h-11 w-11" />
               </div>
               <div className="space-y-2 text-center">
                 <h3 className="text-xl font-bold">Customer relations</h3>
@@ -173,7 +185,7 @@ export function Serv() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex items-center justify-center w-16 h-16 rounded-full border border-gray-200 ">
-                {/* add icon */}
+                <PiPlantDuotone className="h-11 w-11" />
               </div>
               <div className="space-y-2 text-center">
                 <h3 className="text-xl font-bold">SAP</h3>
@@ -193,7 +205,7 @@ export function Serv() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex items-center justify-center w-16 h-16 rounded-full border border-gray-200 ">
-                {/* add icon */}
+                <GiGroupedDrops className="h-11 w-11" />
               </div>
               <div className="space-y-2 text-center">
                 <h3 className="text-xl font-bold">Automated OPS</h3>
@@ -212,7 +224,7 @@ export function Serv() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex items-center justify-center w-16 h-16 rounded-full border border-gray-200 ">
-                {/* add icon */}
+                <LiaDigitalTachographSolid className="h-11 w-11" />
               </div>
               <div className="space-y-2 text-center">
                 <h3 className="text-xl font-bold">Digital Workspace</h3>
@@ -232,7 +244,7 @@ export function Serv() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex items-center justify-center w-16 h-16 rounded-full border border-gray-200 ">
-                {/* add icon */}
+                <MdManageAccounts className="h-11 w-11" />
               </div>
               <div className="space-y-2 text-center">
                 <h3 className="text-xl font-bold">Service Management</h3>
@@ -252,7 +264,7 @@ export function Serv() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex items-center justify-center w-16 h-16 rounded-full border border-gray-200 ">
-                {/* add icon */}
+                <FaArrowsDownToPeople className="h-11 w-11" />
               </div>
               <div className="space-y-2 text-center">
                 <h3 className="text-xl font-bold">Consulting</h3>
@@ -290,8 +302,8 @@ export function Serv() {
           </div>
           <div className="flex flex-col md:flex-row md:justify-center md:space-x-5">
             <section id="banking" className="py-6 lg:py-10 flex flex-col">
-              <div className="container items-center gap-4 px-4 md:px-6  lg:gap-10 bg-gray-500/30 rounded-lg p-10 flex flex-col">
-                <div className="space-y-2 ">
+              <div className="container items-center gap-4 px-4 md:px-6 lg:gap-10 bg-gray-500/30 rounded-lg p-10 flex flex-col h-full">
+                <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
                     Banking
                   </h2>
@@ -307,7 +319,7 @@ export function Serv() {
               </div>
             </section>
             <section id="cyber" className="py-6 lg:py-10 flex flex-col">
-              <div className="container items-center gap-4 px-4  lg:gap-10 bg-stone-300 rounded-lg  p-10 flex flex-col">
+              <div className="container items-center gap-4 px-4 lg:gap-10 bg-stone-300 rounded-lg p-10 flex flex-col h-full">
                 <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
                     CyberSecurity
@@ -324,10 +336,10 @@ export function Serv() {
               </div>
             </section>
           </div>
-          <div className="flex flex-col md:flex-row md:justify-center md:space-x-5 ">
+          <div className="flex flex-col md:flex-row md:justify-center md:space-x-5">
             <section id="networking" className="py-6 lg:py-10 flex flex-col">
-              <div className="container items-center gap-4 px-4 md:px-6  lg:gap-10  bg-stone-300 rounded-lg p-10 flex flex-col">
-                <div className="space-y-2 ">
+              <div className="container items-center gap-4 px-4 md:px-6 lg:gap-10 bg-stone-300 rounded-lg p-10 flex flex-col h-full">
+                <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
                     Networking and Telecom
                   </h2>
@@ -343,7 +355,7 @@ export function Serv() {
               </div>
             </section>
             <section id="retail" className="py-6 lg:py-10 flex flex-col">
-              <div className="container items-center gap-4 px-4  lg:gap-10 bg-gray-500/30 rounded-lg p-10 flex flex-col">
+              <div className="container items-center gap-4 px-4 lg:gap-10 bg-gray-500/30 rounded-lg p-10 flex flex-col h-full">
                 <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
                     Retail Industry
@@ -360,9 +372,10 @@ export function Serv() {
               </div>
             </section>
           </div>
+
           <div className="flex flex-col md:flex-row md:justify-center md:space-x-5">
             <section id="manufacturing" className="py-6 lg:py-10 flex flex-col">
-              <div className="container items-center gap-4 px-4 md:px-6  lg:gap-10 bg-gray-500/30 rounded-lg p-10 flex flex-col">
+              <div className="container items-center gap-4 px-4 md:px-6 lg:gap-10 bg-gray-500/30 rounded-lg p-10 flex flex-col h-full">
                 <div className="space-y-2 ">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
                     Manufacturing
@@ -378,7 +391,7 @@ export function Serv() {
               </div>
             </section>
             <section id="cloud" className="py-6 lg:py-10 flex flex-col">
-              <div className="container items-center gap-4 px-4  lg:gap-10 bg-stone-300 rounded-lg p-10 flex flex-col">
+              <div className="container items-center gap-4 px-4 lg:gap-10 bg-stone-300 rounded-lg p-10 flex flex-col h-full">
                 <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
                     Cloud Services
@@ -395,10 +408,11 @@ export function Serv() {
               </div>
             </section>
           </div>
-          <div className="flex flex-col md:flex-row md:justify-center md:space-x-5 ">
+
+          <div className="flex flex-col md:flex-row md:justify-center md:space-x-5">
             <section id="customer" className="py-6 lg:py-10 flex flex-col">
-              <div className="container items-center gap-4 px-4 md:px-6  lg:gap-10  bg-stone-300 rounded-lg p-10 flex flex-col">
-                <div className="space-y-2 ">
+              <div className="container items-center gap-4 px-4 md:px-6 lg:gap-10 bg-stone-300 rounded-lg p-10 flex flex-col h-full">
+                <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
                     Customer Relationship Management
                   </h2>
@@ -413,7 +427,7 @@ export function Serv() {
               </div>
             </section>
             <section id="sap" className="py-6 lg:py-10 flex flex-col">
-              <div className="container items-center gap-4 px-4  lg:gap-10 rounded-lg bg-gray-500/30 p-10 flex flex-col">
+              <div className="container items-center gap-4 px-4 lg:gap-10 rounded-lg bg-gray-500/30 p-10 flex flex-col h-full">
                 <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
                     SAP
@@ -431,8 +445,8 @@ export function Serv() {
           </div>
           <div className="flex flex-col md:flex-row md:justify-center md:space-x-5">
             <section id="automated" className="py-6 lg:py-10 flex flex-col">
-              <div className="container items-center gap-4 px-4 md:px-6  lg:gap-10 bg-gray-500/30 rounded-lg p-10 flex flex-col">
-                <div className="space-y-2 ">
+              <div className="container items-center gap-4 px-4 md:px-6 lg:gap-10 bg-gray-500/30 rounded-lg p-10 flex flex-col h-full">
+                <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
                     Automated Ops
                   </h2>
@@ -447,7 +461,7 @@ export function Serv() {
               </div>
             </section>
             <section id="digital" className="py-6 lg:py-10 flex flex-col">
-              <div className="container items-center gap-4 px-4  lg:gap-10 bg-stone-300 rounded-lg p-10 flex flex-col">
+              <div className="container items-center gap-4 px-4 lg:gap-10 bg-stone-300 rounded-lg p-10 flex flex-col h-full">
                 <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
                     Digital Workspace
@@ -463,10 +477,10 @@ export function Serv() {
               </div>
             </section>
           </div>
-          <div className="flex flex-col md:flex-row md:justify-center md:space-x-5 ">
+          <div className="flex flex-col md:flex-row md:justify-center md:space-x-5">
             <section id="service" className="py-6 lg:py-10 flex flex-col">
-              <div className="container items-center gap-4 px-4 md:px-6  lg:gap-10  bg-stone-300 rounded-lg p-10 flex flex-col">
-                <div className="space-y-2 ">
+              <div className="container items-center gap-4 px-4 md:px-6 lg:gap-10 bg-stone-300 rounded-lg p-10 flex flex-col h-full">
+                <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
                     Service Management
                   </h2>
@@ -481,7 +495,7 @@ export function Serv() {
               </div>
             </section>
             <section id="consulting" className="py-6 lg:py-10 flex flex-col">
-              <div className="container items-center gap-4 px-4  lg:gap-10 bg-gray-500/30 rounded-lg p-10 flex flex-col">
+              <div className="container items-center gap-4 px-4 lg:gap-10 bg-gray-500/30 rounded-lg p-10 flex flex-col h-full">
                 <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
                     Consulting Services
