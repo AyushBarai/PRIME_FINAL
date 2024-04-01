@@ -111,7 +111,7 @@ export function Navbar() {
             <DropdownMenu
               aria-label="Static Actions"
               style={{ zIndex: 200, borderColor: "#ffffff" }}
-              className="bg-black text-white absolute top-0 right-full mt-0 ml-2 w-40 shadow-lg text-center rounded-lg px-2 py-2 z-1000 hover-bg-[#00df9a] hover:text-black hover:border-[#00df9a"
+              className="bg-black text-white absolute top-0 right-full mt-0 ml-2 w-40 shadow-lg text-center rounded-lg px-2 py-2 z-1000 hover-bg-[#00df9a] hover:text-white hover:border-[#00df9a"
             >
               <DropdownItem key="new" className="py-2">
                 <Link href="/">Home</Link>
