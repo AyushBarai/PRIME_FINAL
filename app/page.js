@@ -10,11 +10,18 @@ export default function Home() {
   return (
     <div>
       <main className={styles.main}>
-        <div className={styles.contents}>
-          <h1 className="text-4xl font-bold tracking-tighter text-white sm:text-5xl md:text-8xl/none p-7">
+        <div
+          className={styles.contents}
+          style={{
+            background: "rgba(0, 223, 154, 0.3)",
+            borderRadius: "10px", // Adjust the radius value as needed
+            padding: "22px", // Adjust the padding value as needed
+          }}
+        >
+          <h1 className="text-4xl font-bold tracking-tighter text-black sm:text-4xl md:text-8xl/none p-7">
             Digitize The World
           </h1>
-          <p className="justify-center text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed p-7">
+          <p className="justify-center text-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed p-7">
             We help businesses transform through technology. Through our Digital
             It Solutions.
           </p>
@@ -25,7 +32,7 @@ export default function Home() {
           </div>
         </div>
         <video
-          src={require("../public/bg2.mp4")}
+          src={require("../public/bg2.webm")}
           autoPlay
           muted
           loop

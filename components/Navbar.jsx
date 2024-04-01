@@ -41,7 +41,7 @@ export function Navbar() {
           <Link href="/" className="navbar_company flex items-center">
             <div className="hidden md:block">
               <img
-                src="HeroLogo.png"
+                src="HeroLogo.webp"
                 alt="Artboard 2"
                 className="h-12 w-[23rem]"
               />
@@ -49,7 +49,7 @@ export function Navbar() {
           </Link>
           <Link href="/" className="navbar_company flex items-center">
             <div className="md:hidden">
-              <img src="Logo3.png" alt="Logo 2" className="h-14 w-14 mr-2" />
+              <img src="Logo3.webp" alt="Logo 2" className="h-14 w-14 mr-2" />
             </div>
           </Link>
         </nav>
