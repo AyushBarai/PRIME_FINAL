@@ -13,7 +13,7 @@ export default function Home() {
         <div
           className={styles.contents}
           style={{
-            background: "rgba(0, 223, 154, 0.3)",
+            background: "rgba(229, 231, 235, 0.)",
             borderRadius: "10px", // Adjust the radius value as needed
             padding: "22px", // Adjust the padding value as needed
           }}
@@ -32,7 +32,7 @@ export default function Home() {
           </div>
         </div>
         <video
-          src={require("../public/bg2.webm")}
+          src={require("../public/bg2.mp4")}
           autoPlay
           muted
           loop
