@@ -7,7 +7,7 @@ import { Locations } from "@/components/Locations";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Prime group techbonogies",
+  title: "Prime Group Technonogies",
   description: "Discover innovative technological solutions and services offered by Prime Group Technologies, a leading provider of cutting-edge IT solutions. Explore our comprehensive range of services tailored to meet your business needs.",
 };
 
