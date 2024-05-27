@@ -44,7 +44,7 @@ export function About() {
                   technology has become an integral part of our daily lives.
                   Organizations and businesses, both private and government,
                   avail Information Technology, and we aid them to function more
-                  efficiently, productively and profitably. Alwosta integrates
+                  efficiently, productively and profitably. Prime Group integrates
                   technology, people, and business processes, together, to
                   create excellent automated and sophisticated systems. ERP
                   (Enterprise Resource Planning) systems and e-governance have
