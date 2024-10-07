@@ -110,27 +110,6 @@ export function About() {
                     height="200"
                   />
                 </div>
-                <div className=" flex flex-col md:flex-row items-center justify-between bg-stone-300 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-                  <Image
-                    className="rounded-lg sm:rounded-none sm:rounded-l-lg justify-start w-[25rem]"
-                    src="/Dineshlatest.webp"
-                    alt="Dinesh Basavarajappa"
-                    width="200"
-                    height="200"
-                  />
-
-                  /*
-                  <div className="justify-center w-auto px-6">
-                    <h3 className="text-center text-3xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      <a href="#">Ayush</a>
-                    </h3>
-                    <p className="text-center text-gray-500 dark:text-gray-400">
-                    </p>
-                    <p className="text-justify text-2xl flex text-wrap mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-
-                    </p>
-                  </div> */
-                </div>
               </div>
             </div>
           </section>
