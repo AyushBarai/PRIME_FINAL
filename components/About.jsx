@@ -119,29 +119,17 @@ export function About() {
                     height="200"
                   />
 
+                  /*
                   <div className="justify-center w-auto px-6">
                     <h3 className="text-center text-3xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      <a href="#">Dinesh Basavarajappa</a>
+                      <a href="#">Ayush</a>
                     </h3>
                     <p className="text-center text-gray-500 dark:text-gray-400">
-                      Board of Director
                     </p>
                     <p className="text-justify text-2xl flex text-wrap mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                      Dinesh M Basavarajappa is a Fisheries Graduate from UAS
-                      Bangalore, endorsed as a Fish Technologist by the
-                      Government of India, boasting 25 years of extensive
-                      expertise. His professional journey encompasses diverse
-                      roles in Production Planning & Control, Quality Assurance,
-                      Process Enhancements, Sales and Marketing, Logistics
-                      Operations, and Man Management across the realms of Food
-                      Processing, Animal Feed Production, and Poultry Hatchery
-                      Operations. With nearly a decade spent in East African
-                      countries within the Seafood & Meat Industry's and another
-                      15 years dedicated to the Poultry Industry in the Middle
-                      East, he has operated at various levels, ranging from
-                      Shift Manager to Head of Operations and VP.
+
                     </p>
-                  </div>
+                  </div> */
                 </div>
               </div>
             </div>
