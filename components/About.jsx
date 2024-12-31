@@ -56,7 +56,7 @@ export function About() {
               </div>
             </div>
           </div>
-          <section className="pt-[8vh]">
+          {/* <section className="pt-[8vh]">
             <div className="py-8 px-4 mx-auto lg:py-16 lg:px-6 ">
               <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
                 <h2 className="text-5xl font-bold tracking-tighter text-white text-center sm:text-5xl md:text-5xl/none ">
@@ -110,7 +110,7 @@ export function About() {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
         </section>
       </main>
     </div>
